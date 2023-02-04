@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="122dp"
+        android:layout_height="167dp"
+        android:layout_marginBottom="7px"
+        android:src="@drawable/loginlogin" />
+
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="50px"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#229930"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="352dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:width="1000px"
+        android:background="@drawable/background"
+        android:hint="username"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="352dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:width="1000px"
+        android:background="@drawable/background"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:layout_margin="10dp"
+        android:background="@drawable/tombol_bulat"
+        android:text="Login" />
+
+</LinearLayout>
